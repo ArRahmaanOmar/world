@@ -1,0 +1,231 @@
+/*fonts*/
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap);
+
+/*common-styles*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(15, 110, 110);
+}
+/* logo part start*/
+.logo-part{
+    width:85%;
+    margin:auto;
+}
+.logo{
+    color:aquamarine
+}
+/*logo part finished*/
+/*header section styles start*/
+header{
+    width:85%;
+    margin:auto;
+    display:flex;
+}
+.sixty{
+    width:60%;
+    padding:20px;
+}
+.fourty{
+    width:40%;
+}
+.title{
+    font-weight:700;
+    font-size:50px;
+}
+.titlecolor{
+    color:rgb(255, 166, 0)
+}
+span{
+    color:chartreuse
+}
+.fourty>img:hover{
+    transform: rotate(180deg);
+}
+.fourty.img{
+    transition:wide 10s liner,heigh 8s linear 2s, transform 3s;    
+}
+.btn{
+    width:196px;
+    height:44px;
+    background-color:orange;
+    border: radius 41px;
+    border:none;
+}
+.link-button{
+    text-decoration:none;
+    color:rgb(211, 23, 23);
+    font-weight:700;
+}
+/*header section style finished*/
+main{
+    width:85%;
+    margin:auto;
+}
+.company{
+    display:flex;
+    padding:20px;
+    margin-top:20px;
+    margin-bottom:100px;
+    border-top:1px solid rgba(128,128,128,0,158);
+    border-bottom:1px solid rgbd(128,128,128,0,158);
+    justify-content:space-evenly;
+}
+/*popular collection part start*/
+.collection{
+    margin-bottom:50px;
+}
+.mtitle{
+    text-align:center;
+}
+.items{
+    display:grid;
+    grid-template-columns: repete(3,1fr);
+    grid-column-gap:24px;
+    grid-row-gap:24px;
+    margin-bottom:24px
+}
+.item{
+width: 300px;
+height:484px;
+border:1px solid rgba(245,245,245,0,0.952);
+border-color: goldenrod;
+padding:10px;
+border-radius:10px;
+}
+.item>img{
+    border-radius:5px;
+}
+.fa-start{
+    color:goldenrod
+}
+.see-more{
+    text-align:end;
+    color:green
+    font-weight700;
+}
+/*populer collection part start*/
+/*contact part start*/
+.contact{
+    display: flex;
+    margin-top:50px;
+}
+.ltitle{
+    text-align: center;
+    font-size: 50px;
+    color:blueviolet;
+}
+.sixtyper{
+    width: 60%;
+}
+.fourtyper{
+    width: 40%;
+}
+form>input{
+    width: 430px;
+    height: 45px;
+    border: 3px solid gray;
+}
+textarea{
+    border: 3px solid grey;
+}
+/*contact part finished*/
+/*footer part start*/
+.footer{
+    text-align: center;
+    background-color: rgba(128,128,128,0,158);
+}
+/*footer part finish*/
+/*for mobile devices*/
+@media only screen and (max-width:688px){
+ } header{
+     width: 320px;
+     margin: 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .fourty>img{
+     width: 100px;
+ }
+ .company{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     margin-left: 400px;
+ }
+ .items{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .item{
+     margin-bottom: 50px;
+ }
+ .item.img{
+     width: 100px;
+ }
+ .ltitle{
+    margin-left: 280px;
+ }
+ .contact{
+     display: flex;
+     flex-direction: column;
+ }
+ .sixtyper>img{
+     width: 800px;
+     margin-left: 150px;
+ }
+ .fourtyper>form>.input{
+     margin-left: 250px;    
+ }
+ .fourtyper>form>.btn{
+     margin-left: 250px;
+ }
+
+/* for tablet devices*/
+@media screen and (max-widts:1130px){
+    header{
+        width: 640px;
+        margin: 0;
+        display: flex;
+        margin-left: 150px;
+    }
+    .fourty>img{
+        width: 400px;   
+    }
+    .company{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-left: 150px;
+    }
+    .company>img{
+        padding: 10px; 
+    }
+    .items{
+        grid-template-columns: repeat(2,1fr);
+        width: 640px;
+        margin-left: 150px;
+    }
+    .contact{
+        width: 640px;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sixtyper>img{
+        margin-left: 70px;
+    }
+    .input{
+        margin-left: 150px;
+    }
+    .btn{
+        margin-left: 150px;
+    }
+    footer{
+        width:1103px;
+        }
+    }
+ 
+   
+
