@@ -208,7 +208,7 @@ textarea{
         margin-left: 150px;
     }
     .contact{
-        width: 640px;
+        width: 240px;
         margin: 0;
         display: grid;
         grid-template-columns: repeat(1,1fr);
